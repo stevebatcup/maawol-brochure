@@ -29,7 +29,7 @@ Profile:	https://themeforest.net/user/athenastudio
 	17.	Footer
 	18.	Blog
 	19.	Single blog post
-	
+
 =============================================================*/
 
 /*********************
@@ -39,13 +39,13 @@ html {
 	font-size:100%;
 	-webkit-font-smoothing:antialiased;
 	-webkit-text-size-adjust:100%;
-		-ms-text-size-adjust:100%;	
+		-ms-text-size-adjust:100%;
 	overflow-x:hidden;
-} 
+}
 
 body {
 	font-family:"Montserrat", sans-serif;
-	font-size:14px;
+	font-size: 1rem;
 	line-height:1.75;
 	overflow-x:hidden;
 	-webkit-font-smoothing:antialiased;
@@ -104,7 +104,7 @@ p {
 	margin-left:-25px;
 	margin-top:-25px;
     text-align:center;
-    font-size:10px; 
+    font-size:10px;
 }
 
 .spinner-loader > div {
@@ -146,7 +146,7 @@ p {
         -webkit-transform:scaleY(0.5);
 				transform:scaleY(0.5);
     }
-	
+
     20% {
         -webkit-transform:scaleY(1);
 				transform:scaleY(1);
@@ -158,7 +158,7 @@ p {
         -webkit-transform:scaleY(0.5);
 				transform:scaleY(0.5);
     }
-	
+
     20% {
         -webkit-transform:scaleY(1);
 				transform:scaleY(1);
@@ -258,10 +258,10 @@ p {
 }
 
 .btn-download i {
-	font-size:32px;
+	font-size:30px;
 	position:absolute;
 	top:14px;
-	left:16px;
+	left:14px;
 }
 
 .btn-download:focus,
@@ -309,7 +309,7 @@ p {
 
 .navbar-default .navbar-nav > li > a {
 	position:relative;
-	padding:5px 0; 
+	padding:5px 0;
 	margin:0 12px;
 	font-weight:600;
 	font-size:14px;
@@ -542,7 +542,7 @@ section.bg-grey {
 	position:relative;
 	clear: both;
 	display:inline-block;
-	font-size:35px;
+	font-size: 2em;
 	color:#000;
 	font-weight:300;
 	margin-left: 14px;
@@ -567,9 +567,9 @@ section.bg-grey {
 }
 
 .section-title p {
-	font-size:14px;
+	font-size: 1em;
 	color:#7f7f7f;
-	margin-bottom:0;
+	margin-bottom: 20px;
 }
 
 /* White */
@@ -587,10 +587,10 @@ section.bg-grey {
 **********************/
 .feature-single {
 	position:relative;
-	text-align:center;	
+	text-align:center;
 }
 
-.feature-single .icon {	
+.feature-single .icon {
     display:inline-block;
     font-size:52px;
     margin-bottom:10px;
@@ -801,10 +801,10 @@ section.key-features {
 *******************/
 .team-member {
     position:relative;
-    background-color:#fff;	
+    background-color:#fff;
     overflow:hidden;
 	-webkit-box-shadow:0 0 30px 0 rgba(0, 0, 0, 0.1);
-    		box-shadow:0 0 30px 0 rgba(0, 0, 0, 0.1);    
+    		box-shadow:0 0 30px 0 rgba(0, 0, 0, 0.1);
     -webkit-transform:translateY(0);
        -moz-transform:translateY(0);
         	transform:translateY(0);
@@ -825,7 +825,7 @@ section.key-features {
 
 .team-member .team-image {
 	position:relative;
-	background-color:#fff;	
+	background-color:#fff;
 }
 
 .team-member .team-image img {
@@ -1050,7 +1050,7 @@ section.key-features {
     width:100%;
 	background-color:#fff;
     -webkit-box-shadow:0 0 30px 0 rgba(0, 0, 0, 0.1);
-    		box-shadow:0 0 30px 0 rgba(0, 0, 0, 0.1);    
+    		box-shadow:0 0 30px 0 rgba(0, 0, 0, 0.1);
     -webkit-transform:translateY(0);
        -moz-transform:translateY(0);
         	transform:translateY(0);
@@ -1180,7 +1180,7 @@ section.key-features {
 
 /* Footer */
 .price-table .price-footer {
-	clear:both;    
+	clear:both;
 	font-weight:700;
 	letter-spacing:1px;
 	text-transform:uppercase;
@@ -1215,7 +1215,7 @@ section.key-features {
 
 .faq-support .panel-heading h4 {
 	font-size:16px;
-	font-weight:600;	
+	font-weight:600;
 	text-transform:uppercase;
 	cursor:pointer;
 }
@@ -1309,7 +1309,7 @@ section.key-features {
 }
 
 .contact-box p {
-	clear:both;	
+	clear:both;
 }
 
 /*********************
@@ -1403,7 +1403,7 @@ footer {
 *******************/
 .blog-home .blog-col {
 	-webkit-box-shadow:0 0 30px 0 rgba(0, 0, 0, 0.1);
-    		box-shadow:0 0 30px 0 rgba(0, 0, 0, 0.1);    
+    		box-shadow:0 0 30px 0 rgba(0, 0, 0, 0.1);
     -webkit-transform:translateY(0);
        -moz-transform:translateY(0);
         	transform:translateY(0);
@@ -1708,7 +1708,7 @@ footer {
 	line-height:10px;
 	text-align:center;
 	border:1px solid #ddd;
-	background-color:#fff;	
+	background-color:#fff;
 	font-weight:500;
 	vertical-align:middle;
 	white-space:nowrap;
@@ -1856,7 +1856,7 @@ footer {
 }
 
 .post-single:hover figure img {
-	opacity:0.6; 
+	opacity:0.6;
 }
 
 .post-single .blog-content {
@@ -1914,7 +1914,7 @@ footer {
 
 .entry-header {
 	width:100%;
-	padding:20px 30px;	
+	padding:20px 30px;
 	border-radius:0 0 2px 2px;
 }
 

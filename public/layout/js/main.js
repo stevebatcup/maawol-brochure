@@ -261,6 +261,26 @@
 		}
 	});
 
+	/************************
+	    - Features slider -
+	************************/
+	$("#feature-slider-carousel").owlCarousel({
+		loop:true,
+		items:1,
+		margin:10,
+		responsiveClass:true,
+		nav:false,
+		dots:true,
+		autoplay:false,
+		autoplaySpeed:1000
+	});
+
+	$('#accordion').on('shown.bs.collapse', function (e) {
+		var $accordion = $(e.currentTarget);
+		var $accordionSection = $accordion.find('.collapse.in')
+		var imageId = $accordionSection.data('carousel-image-id');
+	});
+
 	/********************
 	    - Subscribe -
 	********************/
