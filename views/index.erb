@@ -25,7 +25,7 @@
 
 		<!-- Stylesheet -->
 		<link rel="stylesheet" href="layout/style.css" type="text/css">
-		<link rel="stylesheet" href="layout/media.css" type="text/css">
+		<link rel="stylesheet" href="layout/media.css?v=2" type="text/css">
 
 		<!-- Color schema -->
 		<link class="colors" rel="stylesheet" type="text/css" href="layout/colors/green.css">
@@ -78,8 +78,8 @@
 					<div class="navbar-header">
 
 						<!-- Logo -->
-						<a class="navbar-brand" href="index.html">
-							<img src="images/logo.png" data-rjs="2" alt="" />
+						<a class="navbar-brand" href="#">
+							<img src="images/maawol-logo.png?v=1" data-rjs="2" alt="" />
 						</a>
 
 						<!-- Responsive menu button -->
@@ -91,10 +91,9 @@
 					<!-- Navigation -->
 					<div class="navbar-collapse collapse" id="navigation">
 						<ul class="nav navbar-nav navbar-right main-navigation" id="main-menu">
-							<li class="active"><a href="#">Home</a></li>
 							<li><a href="#how-and-why">How &amp Why</a></li>
 							<li><a href="#features">Features</a></li>
-							<li><a href="#alternatives">Alternatives</a></li>
+							<li class="md-hide"><a href="#alternatives">Alternatives</a></li>
 							<li><a href="#oaq">Questions</a></li>
 							<li><a href="#showcase">Showcase</a></li>
 							<li><a href="#contact">Contact</a></li>
@@ -533,7 +532,7 @@
 												It's easy to build your membership using free content whilst building up your premium content ready to start taking subscriptions.
 											</p>
 											<p>
-												Remember: it's FREE for students to join your school but they need to pay to subscribe to your premium content. You get to decide which content is free and which premium.
+												Remember: it's FREE for students to join your school but they need to pay to subscribe to your premium content. You get to decide which content is free and which is premium.
 											</p>
 
 											<p>If you are an individual music teacher and worried that you will not be able to produce enough content, why not collaborate with your musician friends and start a Maawol school together?</p>
@@ -626,7 +625,7 @@
 												Via your admin dashboard you can create custom e-commerce web-stores and populate them with sale items such as <b>Courses</b>, <b>PDF scores</b> and <b>Audio files</b>.
 											</p>
 											<p>
-												This enables you to make on-off sales to people who do not wish to join your school as a student.
+												This enables you to make one-off sales of your content to people who do not wish to join your school as a student.
 											</p>
 										</div>
 									</div>
@@ -645,7 +644,7 @@
 										<div class="panel-body">
 											<p>Yes REALLY!</p>
 
-											<p>All costs involved with running a e-learning and e-commerce platform are handled by us.</p>
+											<p>All costs involved with running an e-learning AND an e-commerce platform are handled by us.</p>
 											<p>You will incur...</p>
 											<ul>
 												<li>No video hosting fees  - <em>we use Vimeo</em></li>
@@ -655,7 +654,7 @@
 												<li>No domain or SSL certificate fees  - <em>we use Namecheap</em></li>
 											</ul>
 
-											<p>When you start making money from your subscription base or your web-store sales we take a 15% cut.</p>
+											<p>When you start making money from your subscription base or your web-store sales we take a 15% cut. Simple.</p>
 										</div>
 									</div>
 								</div>
@@ -807,7 +806,7 @@
 				<div class="row">
 
 					<!-- Contact form -->
-					<div class="col-md-8">
+					<div class="col-sm-12 col-md-8">
 
 						<div class="contact-form">
 
@@ -843,7 +842,7 @@
 					</div>
 
 					<!-- Contact info -->
-					<div class="col-md-4 contact-right">
+					<div class="col-sm-12 col-md-4 contact-right">
 
 						<div class="contact-box">
 							<h4>Say Hello</h4>
@@ -869,7 +868,7 @@
 						<a class="to-top"><i class="fas fa-angle-up"></i></a>
 
 						<div class="footer-logo">
-							<img src="images/icon.png" data-rjs="2" alt="" />
+							<img src="images/maawol-icon.png" data-rjs="2" alt="" />
 						</div>
 <!--
 						<div class="footer-social">
@@ -885,7 +884,9 @@
 
 						<div class="copyright-text">
 							<p>Copyright &copy; <%= Date.today.strftime("%Y") %> <a href="https://www.maawol.com" target="_blank">Maawol</a></p>
+
 						</div>
+						<p id="footer-email"><a href="mailto:hello@maawol.com" class="text-white">hello@maawol.com</a></p>
 
 					</div>
 				</div>

@@ -279,8 +279,10 @@ p {
 
 .navbar-brand {
 	position:relative;
-	padding:35px 15px 0;
+	padding: 26px 15px 0;
 	height:auto;
+	width: 10%;
+	width: 10vw;
 	-webkit-transition:all 0.3s ease-out;
 	   -moz-transition:all 0.3s ease-out;
 			transition:all 0.3s ease-out;
@@ -400,7 +402,7 @@ p {
 }
 
 .sticky-header .navbar-brand {
-	padding-top:19px;
+	padding-top:10px;
 }
 
 .sticky-header .navbar-nav>li {
@@ -1327,7 +1329,9 @@ footer {
 
 .footer-logo,
 .footer-social {
-	margin-top:20px;
+	margin: 20px auto;
+	width: 4%;
+	width: 4vw;
 }
 
 .footer-social ul {
@@ -1400,6 +1404,10 @@ footer {
 
 .mfp-close-btn-in .mfp-close {
 	position:absolute;
+}
+
+p#footer-email a {
+	color: #fff;
 }
 
 /*******************
