@@ -336,11 +336,12 @@
 		var name = $("#name").val();
 		var email = $("#email").val();
 		var message = $("#message").val();
+		var sweets = $("#sweets").val();
 
 		$.ajax({
 			type:"POST",
 			url:"/enquire",
-			data:"name="+name+"&email="+email+"&message="+message,
+			data:"name="+name+"&email="+email+"&message="+message+"&sweets="+sweets,
 			success:function(data) {
 				var layer = "#msgSubmit";
 

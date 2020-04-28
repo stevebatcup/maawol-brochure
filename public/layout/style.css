@@ -1158,7 +1158,7 @@ section.key-features {
 
 /* Content */
 .price-table .price-content {
-    padding:60px 30px;
+    padding:25px 30px;
 }
 
 .price-table .price-content ol,
@@ -1280,6 +1280,10 @@ section.key-features {
 	padding-right:20px;
 	min-height:50px;
 	font-size:14px;
+}
+
+.contact-form textarea#sweets {
+	display: none;
 }
 
 .btn-contact {

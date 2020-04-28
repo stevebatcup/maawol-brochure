@@ -8,6 +8,8 @@ get '/' do
 end
 
 post '/enquire' do
+	return "Ooops no..." if params[:sweets].length > 0
+
 	if params[:email].length > 0
 		Pony.options = {
 			from: 'hello@maawol.com',
