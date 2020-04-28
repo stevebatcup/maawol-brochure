@@ -15,4 +15,4 @@ WORKDIR $APP_PATH
 COPY . .
 
 EXPOSE 4567
-CMD ruby app.rb -o 0.0.0.0
+CMD ./docker-entrypoint.sh
