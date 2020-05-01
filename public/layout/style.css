@@ -496,7 +496,7 @@ p {
 .header-slider .owl-dots .owl-dot span {
     width:10px;
     height:10px;
-	margin:5px 3px;
+	  margin:5px 3px;
     display:block;
     transition:all 0.3s;
     border-radius:20px;
@@ -569,7 +569,7 @@ section.bg-grey {
 }
 
 .section-title p {
-	font-size: 1em;
+	font-size: 1.15em;
 	color:#7f7f7f;
 	margin-bottom: 20px;
 }
@@ -694,7 +694,61 @@ section.key-features {
 }
 
 .feature-center {
-	margin-bottom:-150px;
+	margin-bottom:-165px;
+}
+
+/****************************
+    - 8a. Laptop SVG Image -
+****************************/
+
+#features-graphic-wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+#features-graphic-wrapper #features-laptop-wrapper {
+	max-width: 700px;
+	width: 100%;
+	margin: 0 auto;
+	display: inline-block;
+	transition: .3s cubic-bezier(.42,0,.2,1);
+	transition-property: width,padding-bottom;
+}
+
+#features-graphic-wrapper #features-laptop-wrapper #features-laptop-inner {
+	position: relative;
+	display: inline-block;
+	height: 0;
+	max-width: 100%;
+	width: 100%;
+	transition: all .3s cubic-bezier(.42,0,.2,1);
+	width: 100%;
+	padding: 6% 0 51%;
+}
+
+#features-graphic-wrapper #features-laptop-wrapper #features-laptop-inner svg {
+  width: 100%;
+  height: auto;
+  display: block;
+  font-size: 1rem;
+  transition: all .3s cubic-bezier(.42,0,.2,1);
+  position: relative;
+}
+
+#features-graphic-wrapper #features-laptop-wrapper #features-laptop-image {
+	top: 60%;
+	transform: translateX(-50%) translateY(-50%);
+	width: 76.43411%;
+	position: absolute;
+	left: 50%;
+	transition: all .3s cubic-bezier(.42,0,.2,1);
+	}
+
+#features-graphic-wrapper #features-laptop-wrapper #features-laptop-image img {
+	width: 100%;
+	height: auto;
+  max-width: 100%;
+  border: none;
 }
 
 /****************************
@@ -1047,6 +1101,7 @@ section.key-features {
     - 14. Pricing -
 **********************/
 .price-table {
+	min-height: 530px;
     border-radius:2px;
     text-align:center;
     width:100%;
@@ -1256,6 +1311,11 @@ section.key-features {
 	top:18px;
 }
 
+#oaq-slider-carousel {
+	margin-top: 60px;
+	padding: 0 10px;
+}
+
 /**********************
     - 16. Contact -
 **********************/
@@ -1432,6 +1492,10 @@ p#footer-email a {
     -webkit-transform:translateY(-5px);
        -moz-transform:translateY(-5px);
         	transform:translateY(-5px);
+}
+
+.blog-home .blog-col img {
+	height: 220px;
 }
 
 .blog-home .blog-wrapper {

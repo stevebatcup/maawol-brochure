@@ -262,9 +262,10 @@
 	});
 
 	/************************
-	    - Features slider -
+	    - OAQ slider -
 	************************/
-	$("#feature-slider-carousel").owlCarousel({
+	var $oaqSlider = $("#oaq-slider-carousel")
+	$oaqSlider.owlCarousel({
 		loop:true,
 		items:1,
 		margin:10,
@@ -272,13 +273,14 @@
 		nav:false,
 		dots:true,
 		autoplay:false,
-		autoplaySpeed:1000
+		autoplaySpeed:3000
 	});
 
 	$('#accordion').on('shown.bs.collapse', function (e) {
 		var $accordion = $(e.currentTarget);
 		var $accordionSection = $accordion.find('.collapse.in')
-		var imageId = $accordionSection.data('carousel-image-id');
+		var imageIndex = $accordionSection.data('carousel-image-index');
+		$oaqSlider.trigger('to.owl.carousel', imageIndex);
 	});
 
 	/********************

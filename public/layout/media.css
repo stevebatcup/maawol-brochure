@@ -73,6 +73,28 @@
 	.contact-right {
 		display: none;
 	}
+
+	#oaq-slider-carousel {
+		margin-top: 0;
+		padding: 0 0;
+	}
+
+	.blog-home .blog-col img {
+		height: inherit;
+	}
+
+	.feature-center {
+    margin-bottom: 10px;
+	}
+
+	.price-table {
+		min-height: unset;
+	}
+
+	.price-table .price-content ol,
+	.price-table .price-content ul {
+    padding: 0 12vw;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -284,6 +306,11 @@
 	.contact-right {
 		padding-left:15px;
 		padding-top:50px;
+	}
+
+	.price-table .price-content ol,
+	.price-table .price-content ul {
+    padding: 0 1vw;
 	}
 }
 
