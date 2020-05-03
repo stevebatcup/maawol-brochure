@@ -8,14 +8,20 @@
 		min-width:auto;
 	}
 
-	.navbar-brand {
+	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
 		width: 15.5%;
 		width: 15.5vw;
+		margin-left: -5px;
+		margin-top: 23px;
+	}
+
+	.sticky-header.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+		margin-top: 4px;
 	}
 
 	.footer-logo {
-		width: 7%;
-		width: 7vw;
+		width: 10%;
+		width: 10vw;
 	}
 }
 
@@ -29,12 +35,12 @@
 		display: none;
 	}
 
-	.navbar-brand {
+	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
 		width: 21%;
 		width: 21vw;
 	}
 
-	.navbar-brand h1 {
+	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand h1 {
 		font-size:30px;
 	}
 
@@ -67,7 +73,7 @@
 	}
 
 	.footer-logo {
-		width: 8.5vw;
+		width: 10vw;
 	}
 
 	.contact-right {
@@ -299,8 +305,8 @@
 	}
 
 	.footer-logo {
-		width: 12%;
-		width: 12vw;
+		width: 19%;
+		width: 19vw;
 	}
 
 	.contact-right {
@@ -316,6 +322,16 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width:480px) {
+	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+		width: 53vw;
+		padding: 0;
+		margin: 4px 0 0 15px;
+	}
+
+	.sticky-header.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+		margin-top: 1px;
+	}
+
 	.download-button a {
 		margin-right:0;
 	}
@@ -372,8 +388,8 @@
 	}
 
 	.footer-logo {
-		width: 12%;
-		width: 12vw;
+		width: 18%;
+		width: 18vw;
 	}
 }
 
