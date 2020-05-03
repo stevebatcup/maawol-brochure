@@ -30,3 +30,7 @@ post '/enquire' do
 	end
   "success"
 end
+
+get '/sitemap.xml' do
+	erb :sitemap
+end
