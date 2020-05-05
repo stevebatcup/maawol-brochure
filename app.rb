@@ -34,3 +34,7 @@ end
 get '/sitemap.xml' do
 	erb :sitemap
 end
+
+get '/googled9fd1599fe07f849.html' do
+	return 'google-site-verification: googled9fd1599fe07f849.html'
+end
