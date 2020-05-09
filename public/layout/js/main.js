@@ -210,7 +210,7 @@
 	    - Sticky navigation -
 	****************************/
 	$window.scroll(function() {
-    	if ($window.scrollTop()>200) {
+    	if ($window.scrollTop()>125) {
 			$(".navbar").addClass("sticky-header");
 		} else {
 			$(".navbar").removeClass("sticky-header");
