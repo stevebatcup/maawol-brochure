@@ -41,6 +41,10 @@ a:focus,
 	color:#24b7a4;
 }
 
+i.alt {
+	color: #339af0;
+}
+
 .btn-download.btn-fill:hover {
 	color:#24b7a4 !important;
 }
@@ -95,6 +99,10 @@ a:focus,
 .btn-comment,
 .form-control:focus {
 	border-color:#24b7a4;
+}
+
+.box-icon.alt {
+	border-color: #339af0;
 }
 
 .form-control:focus + .btn-search,
