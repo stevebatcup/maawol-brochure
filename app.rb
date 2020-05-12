@@ -4,7 +4,19 @@ require "sinatra/reloader"
 require "pony"
 
 get '/' do
-	erb :index
+	erb :index, layout: :layout
+end
+
+get '/pricing' do
+	erb :pricing
+end
+
+get '/blog' do
+	erb :blog
+end
+
+get '/about-us' do
+	erb :about
 end
 
 post '/enquire' do

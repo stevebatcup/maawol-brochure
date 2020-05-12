@@ -2,8 +2,18 @@
     - Media queries -
 ************************/
 
+@media only screen and (max-width:1200px) {
+	.navbar>.container-fluid {
+		padding: 0 3rem;
+	}
+}
+
 /* Medium Devices, Desktops */
 @media only screen and (max-width:1024px) {
+	.navbar>.container-fluid {
+		padding: 0 2rem;
+	}
+
 	.newsletter-form .form-control {
 		min-width:auto;
 	}
@@ -23,9 +33,32 @@
 		width: 10%;
 		width: 10vw;
 	}
+
+	.parallax-bg {
+		background-attachment: initial;
+	}
+
+	.contact-right {
+		display: none;
+	}
+
+	.price-table {
+		min-height: unset;
+		margin-bottom: 2em;
+	}
+
+	.price-table .price-content ol,
+	.price-table .price-content ul {
+    padding: 0 12vw;
+	}
+
+	.d-md-hide {
+		display: none !important;
+	}
 }
 
 @media only screen and (max-width:768px) {
+
 	.navbar-default .navbar-nav > li > a {
 		font-size: 0.85rem;
 		padding: 6px 3px;
@@ -76,10 +109,6 @@
 		width: 10vw;
 	}
 
-	.contact-right {
-		display: none;
-	}
-
 	#oaq-slider-carousel {
 		margin-top: 0;
 		padding: 0 0;
@@ -91,15 +120,6 @@
 
 	.feature-center {
     margin-bottom: 10px;
-	}
-
-	.price-table {
-		min-height: unset;
-	}
-
-	.price-table .price-content ol,
-	.price-table .price-content ul {
-    padding: 0 12vw;
 	}
 }
 
@@ -221,6 +241,10 @@
 	.feature-mobile {
 		padding-top:30px;
 		margin-bottom:-120px;
+	}
+
+	.section-title {
+		margin-bottom: 50px;
 	}
 
 	.key-features .section-title {

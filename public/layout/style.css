@@ -239,12 +239,12 @@ p {
 	background:rgba(255, 255, 255, 0.1);
 	border-radius:2px;
 	border:1px solid rgba(255, 255, 255, 0.3) !important;
-	padding:8px 20px 6px 60px;
-	font-size:20px;
+	padding:8px 4px 6px 48px;
+	font-size:0.95rem;
 	font-weight:600;
 	min-width:220px;
 	margin-right:20px;
-	margin-bottom:20px;
+	margin-bottom:30px;
 	text-align:left;
 	transition:all 0.1s linear;
 }
@@ -258,10 +258,10 @@ p {
 }
 
 .btn-download i {
-	font-size:30px;
+	font-size:22px;
 	position:absolute;
-	top:14px;
-	left:14px;
+	top:16px;
+	left:10px;
 }
 
 .btn-download:focus,
@@ -275,6 +275,10 @@ p {
 ************************/
 .navbar {
 	margin-bottom:0;
+}
+
+.navbar>.container-fluid {
+	padding: 0 5rem;
 }
 
 .navbar-brand {
@@ -444,7 +448,7 @@ p {
 	top:0;
 	width:100%;
 	height:100%;
-	opacity:0.6;
+	opacity:0.65;
 }
 
 .banner .row {
@@ -472,10 +476,10 @@ p {
 }
 
 .download-button a {
-	margin-right:20px;
+	margin-right:8px;
 	color:#fff;
 	border-color:#fff;
-	line-height:25px;
+	line-height:21px;
 }
 
 .download-button a:before {
@@ -531,6 +535,10 @@ section.bg-grey {
 	background:#f7f7f7;
 }
 
+section.bg-dark {
+	background-color: #656565;
+}
+
 /* Parallax background */
 .parallax-bg {
 	background-repeat:no-repeat;
@@ -574,8 +582,9 @@ section.bg-grey {
 }
 
 .section-title p {
-	font-size: 1.15em;
+	font-size: 1.1em;
 	color:#7f7f7f;
+	font-weight: 400;
 	margin-bottom: 20px;
 }
 
@@ -613,7 +622,7 @@ section.bg-grey {
 
 .feature-single p {
 	color:#666;
-	font-size:14px;
+	font-size:1rem;
 	line-height:1.5em;
 }
 
@@ -625,7 +634,7 @@ section.bg-grey {
 
 /* Key features */
 section.key-features {
-	padding-bottom:0;
+	padding-bottom: 2.8rem;
 	overflow:hidden;
 }
 
@@ -693,14 +702,14 @@ section.key-features {
 }
 
 .feature-box .box-text {
-    font-size:14px;
+  font-size:1rem;
 	line-height:1.5em;
 	color:#666;
 }
 
-.feature-center {
+/*.feature-center {
 	margin-bottom:-165px;
-}
+}*/
 
 /****************************
     - 8a. Laptop SVG Image -
@@ -1106,7 +1115,7 @@ section.key-features {
     - 14. Pricing -
 **********************/
 .price-table {
-	min-height: 530px;
+	min-height: 730px;
     border-radius:2px;
     text-align:center;
     width:100%;
@@ -1221,18 +1230,20 @@ section.key-features {
 /* Content */
 .price-table .price-content {
     padding:25px 30px;
+    font-size: 0.95em;
 }
 
 .price-table .price-content ol,
 .price-table .price-content ul {
-    list-style:none;
+    list-style: circle;
     margin:0;
-    padding:0;
+    padding: 0 0 0 1em;
 }
 
 .price-table .price-content ol li,
 .price-table .price-content ul li {
     margin-bottom:10px;
+    list-style: circle;
 }
 
 .price-table .price-content ol li:last-child,
