@@ -55,6 +55,10 @@
 	.d-md-hide {
 		display: none !important;
 	}
+
+	#technology-features {
+		padding-top: 60px;
+	}
 }
 
 @media only screen and (max-width:768px) {
